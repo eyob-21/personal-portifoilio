@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- navbar -->
+<nav class="navbar">
+   <h1 class="brand">logo</h1>
+   <div class="toggle-btn">
+     <span></span>
+     <span></span>
+   </div>
+   <ul class="links-container">
+      <li class="links-item"><a href="#" class="link active">home</a></li>
+      <li class="links-item"><a href="#about-section" class="link ">about</a></li>
+      <li class="links-item"><a href="#project-section" class="link ">project</a></li>
+      <li class="links-item"><a href="#contact-section" class="link ">contact</a></li>
+    </ul>
+
+</nav>
+
+<!-- home section -->
+<section class="home">
+    <div class="hero-content">
+        <h1 class="hero-heading"><span class="highlight">hi, </span>i am eyob</h1>
+        <p class="profession">Web developer</p>
+        <p class="info">I am a good skill front end web developer and have been working in this field for few  years.</p>
+        <a href="#contact-section" class="btn">contact</a>
+    </div>
+    <img src="img/img1.jpg" class="image" alt="">
+</section>
+
+<!-- about section -->
+<section class="about" id="about-section">
+<h2 class="heading">about <span class="highlight">me</span></h2>
+<p class="sub-heading">I have bachelor degree in electrical and computer engineering  from university. I have solid knowledge in programming. I keep myself up to date with new technologies and its uses, new tools and computer language Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, ex. lorem20</p>
+<div class="seperator"></div>
+
+<div class="about-me-container">
+    <div class="left-col">
+       <img src="img/img1.jpg" class="about-image" alt="">
+    </div>
+    <div class="right-col">
+       <p class="about-para"> Hello, this is Eyob Mekonnen. I am a professional front-end web developer and have been working in this field for 4 long years.
+         I have a bachelor’s degree in computer Engineering from the university of wolkite and a coursework in website design.I have already earned a lot quantity of popularity by creating many famous websites. 
+         
+         I have solid knowledge in programming and webpage designing and my works are not only enchanting but also integrated with graphics, video, and audio. I am also skilful in problem solving methods and acquainted with computer languages like  CSS, XML, HTML, HTML5,  JavaScript and multimedia publishing tools like Flash and Photoshop.
+         Besides, my websites are SEO friendly because it did not fail to satisfy the users. Again, I keep myself up to date with new technologies and its uses, new tools and computer languages so that I can give my level best to my clients.I believe in hardship and hiring me would not fail your decision. Thank you.</p>
+       <a href="#" class="btn">download cv</a>
+    </div>
+</div>
+
+<h2 class="heading">language and framework i know</h2>
+<div class="seperator"></div>
+<div class="skill-container">
+    <div class="skill-card" style="--bg: #f06529">
+       <p class="skill">HTML</p>
+    </div>
+    <div class="skill-card large" style="--bg: #379ad6">
+        <p class="skill">CSS</p>
+     </div>
+     <div class="skill-card" style="--bg: #cc6699">
+        <p class="skill">SCSS</p>
+     </div>
+     <div class="skill-card" style="--bg: #f7df1e">
+        <p class="skill">JavaScipt</p>
+     </div>
+     <div class="skill-card " style="--bg: #5ed9fb">
+        <p class="skill">ReactJS</p>
+     </div>
+     <div class="skill-card large" style="--bg: #83cd29">
+        <p class="skill">NodeJs</p>
+     </div>
+     <div class="skill-card large " style="--bg: #326690">
+        <p class="skill">Firebase</p>
+     </div>
+     <div class="skill-card large" style="--bg: #ffa000">
+        <p class="skill">Much More</p>
+     </div>
+
+</div>
+
+</section>
+
+<!-- project section -->
+<section class="project" id="project-section">
+   <h2 class="heading">Project<span class="highlight">s</span></h2>
+   <p class="sub-heading">sample of worked project</p>
+   <div class="seperator"></div>
+
+  <div class="filters">
+       <button class="filter-btn active" id="all">all</button>
+       <button class="filter-btn" id="javascript">javascript</button>
+       <button class="filter-btn" id="ui">ui/ux</button>
+       <button class="filter-btn" id="backend">backend</button>
+       <button class="filter-btn" id="fullstack">fullstack</button>
+ </div>
+
+  <div class="project-container">
+   
+   </div>
+</section>
+
+<!-- contact form -->
+<section class="contact" id="contact-section">
+   <h2 class="heading">Contact<span class="highlight"> me</span></h2>
+   <p class="sub-heading">if you want contact me.</p>
+   <div class="seperator"></div>
+
+   <div class="contact-form">
+        <div class="name">
+          <input type="text" class="first-name" required placeholder="first name">
+          <input type="text" class="first-name" required placeholder="last name">
+        </div>
+        <input type="email" required class="email" placeholder="email">
+        <textarea class="message" placeholder="message" required></textarea>
+        <button class="btn contact-btn">contact</button>
+   </div>
+</section>
+
+<footer class="footer">made with love by modern web</footer>
+
+<script src="project.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
